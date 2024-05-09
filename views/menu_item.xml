@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <menuitem id="list_menu" name="To Do" sequence="10"/>
+        <menuitem id="todo_menu" name="Activities" parent="list_menu" sequence="5"/>
+        <menuitem id="activity_menu" name="Activities" parent="list_menu" sequence="6"/>
+        <menuitem id="config_activities_types" name="Activity Types" parent="list_menu" action="mail_activity_type"/>
+    </data>
+</odoo>
